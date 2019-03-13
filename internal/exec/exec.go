@@ -8,15 +8,15 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/graph-gophers/graphql-go/errors"
-	"github.com/graph-gophers/graphql-go/internal/common"
-	"github.com/graph-gophers/graphql-go/internal/exec/resolvable"
-	"github.com/graph-gophers/graphql-go/internal/exec/selected"
-	"github.com/graph-gophers/graphql-go/internal/query"
-	"github.com/graph-gophers/graphql-go/internal/schema"
-	"github.com/graph-gophers/graphql-go/log"
-	pubselected "github.com/graph-gophers/graphql-go/selected"
-	"github.com/graph-gophers/graphql-go/trace"
+	"github.com/FanFani4/graphql-go/errors"
+	"github.com/FanFani4/graphql-go/internal/common"
+	"github.com/FanFani4/graphql-go/internal/exec/resolvable"
+	"github.com/FanFani4/graphql-go/internal/exec/selected"
+	"github.com/FanFani4/graphql-go/internal/query"
+	"github.com/FanFani4/graphql-go/internal/schema"
+	"github.com/FanFani4/graphql-go/log"
+	pubselected "github.com/FanFani4/graphql-go/selected"
+	"github.com/FanFani4/graphql-go/trace"
 )
 
 type Request struct {
